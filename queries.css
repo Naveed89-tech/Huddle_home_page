@@ -1,0 +1,216 @@
+/*****************/
+/* Landscape tablets*
+1200px==1200/16=75em/
+/*****************/
+/* Now if we change the font size of default,
+every value we define in html based on our defince 62.5%,
+will reduce based on this value*/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .tertiary_heading {
+    font-size: 2rem;
+  }
+  .hero_description_text {
+    margin-top: 2rem;
+  }
+}
+/*****************/
+/* Landscape tablets*
+998px==1200/16=75em/
+/*****************/
+@media (max-width: 62.37em) {
+  html {
+    font-size: 50%;
+  }
+
+  .primary_heading {
+    font-size: 3.6rem;
+  }
+  .secondary-heading {
+    font-size: 3rem;
+  }
+  .tertiary_heading {
+    font-size: 2.4rem;
+  }
+  .footer {
+    padding-top: 2.4rem;
+  }
+}
+/*****************/
+/* mobile or  tablets*
+877px==877/16=54.81em/
+/*****************/
+@media (max-width: 54.81em) {
+  .primary_heading {
+    font-size: 4.4rem;
+    line-height: 1.3;
+    max-width: 60rem;
+  }
+  .container {
+    padding-bottom: 3.2rem;
+  }
+
+  .tertiary_heading {
+    font-size: 2.8rem;
+  }
+  .footer {
+    padding-top: 3.2rem;
+  }
+  .section_how-work {
+    min-height: 90rem;
+  }
+  .how_work_content {
+    flex-direction: column;
+    row-gap: 3.2rem;
+  }
+  .content_box {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+  }
+  .text_width {
+    max-width: 40rem;
+  }
+  .text_start {
+    text-align: center;
+  }
+  .how_work_content .illustration_box {
+    order: -1;
+    align-self: center;
+  }
+  .illustration_box {
+    margin-left: 0.2rem;
+  }
+  .illustration_img {
+    width: 40%;
+  }
+  .section_grow {
+    align-self: center;
+  }
+  .grow {
+    align-self: flex-end;
+  }
+  .newsletter_box {
+    order: -1;
+    align-self: flex-start;
+    text-align: start;
+    margin-bottom: 4.4rem;
+  }
+  .footer .how_work_content {
+    gap: 4.4rem;
+  }
+  .footer .how_work_content .text_start {
+    text-align: start;
+  }
+  .footer .how_work_content .content_box {
+    align-self: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+/*****************/
+/* tablets*
+548px==548/16=34.25em/
+/*****************/
+@media (max-width: 34.25em) {
+  .logo_img {
+    max-width: 15rem;
+  }
+  .primary_heading {
+    font-size: 3.6rem;
+    line-height: 1.3;
+  }
+  .secondary-heading {
+    font-size: 3.2rem;
+  }
+  .tertiary_heading {
+    font-size: 2.4rem;
+  }
+  .hero_text_box {
+    margin-bottom: 3.2rem;
+  }
+  .success_box {
+    flex-direction: column;
+    font-size: 4.4rem;
+  }
+}
+/*****************/
+/* small devices*
+368px==368/16=23em/
+/*****************/
+
+@media (max-width: 23em) {
+  .logo {
+    align-self: flex-start;
+  }
+  .navigation {
+    justify-content: space-between;
+  }
+
+  .hero {
+    z-index: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30rem 1fr 60rem 18rem 18rem 18rem;
+  }
+  .hero_img {
+    z-index: -5;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+  }
+  .hero_image {
+    display: none;
+  }
+  .mobile_image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .fas {
+    font-size: 4rem;
+  }
+  .hero_trending_news {
+    margin-top: 0rem;
+  }
+  .hero_text_box {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60rem;
+  }
+  .navigation_list {
+    gap: 3.2rem;
+  }
+  .primary_heading {
+    font-size: 2.4rem;
+    align-self: flex-start;
+    line-height: 1.3;
+  }
+  .secondary-heading {
+    font-size: 2rem;
+  }
+  .tertiary_heading {
+    font-size: 1.4rem;
+  }
+  .hero_description_text {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .blog {
+    justify-content: start;
+  }
+  .button {
+    padding: 1rem 2.4rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form .button {
+    align-self: flex-end;
+    margin-top: 2.4rem;
+  }
+}
