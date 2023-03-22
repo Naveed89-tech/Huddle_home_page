@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Naveed89-tech/new_agency_home_page)
-- Live Site URL: [News Agency](https://newsagency-home.netlify.app/)
+- Solution URL: [Github](https://github.com/Naveed89-tech/Huddle_home_page)
+- Live Site URL: [HUDDLE](https://huddle-home-page-new.netlify.app/)
 - Portfolio_Website: [Portfolio_Website](https://naveedtechs.netlify.app/)
 
 ## My process
@@ -31,7 +31,6 @@ Users should be able to:
 
 - CSS custom properties
 - Flex-box
-- Grids
 - Variables
 - media queries
 - HTML
